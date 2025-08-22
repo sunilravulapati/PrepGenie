@@ -1,0 +1,86 @@
+.ai-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.ai-input-container textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.ai-input-container button {
+    align-self: flex-start;
+    background-color: #2b6cb0;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.ai-input-container button:hover {
+    background-color: #2c5282;
+}
+
+.ai-input-container button:disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+}
+
+.ai-result-container {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #f7fafc;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.result-header h3 {
+    margin: 0;
+}
+
+.save-btn {
+    background-color: #38a169;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.save-btn:hover {
+    background-color: #2f855a;
+}
+
+.save-btn:disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+}
+
+.disabled-feature {
+    opacity: 0.6;
+}
+
+.disabled-feature button {
+    cursor: not-allowed;
+}

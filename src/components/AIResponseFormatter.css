@@ -1,0 +1,41 @@
+.ai-formatted-content {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #2d3748;
+}
+
+.ai-h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
+
+.ai-h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.ai-p {
+    margin-bottom: 1rem;
+}
+
+.ai-list {
+    margin-bottom: 1rem;
+    padding-left: 25px;
+}
+
+.ai-list li {
+    margin-bottom: 0.5rem;
+}
+
+.ai-hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin: 2rem 0;
+}
